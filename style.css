@@ -1,0 +1,34 @@
+@font-face{
+  font-family: "FontAwesome";
+  src: url(../fonts/fontawesome/css/font-awesome.min.css);
+}
+label.custom-select{
+  border: 1px solid #ccc;
+  position: relative;
+  background-color: transparent;
+}
+.custom-select select{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    border:none;
+    outline: none;
+    width: 100%;
+    background-color: transparent;
+  }
+  .custom-select:after {
+     font-family: FontAwesome;
+   content: "\f078";
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    font-size: 15px;
+    color: #616161;
+    text-align: left;
+    line-height: 15px;
+    font-size: 12px;
+    position:absolute;
+    right: 0px;
+    top: 3px;
+        z-index: -1;
+}
